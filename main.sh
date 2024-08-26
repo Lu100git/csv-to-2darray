@@ -85,7 +85,7 @@ truncate -s -1 temp
 truncate -s -1 temp
 
 echo " " >> temp
-echo "}" >> temp
+echo "};" >> temp
 
 zenity --file-selection --save  --title="2D array data destination" > $temp_save_path
 
